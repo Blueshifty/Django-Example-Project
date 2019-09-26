@@ -1,17 +1,13 @@
 ## Django Simple Project 
 
-**Sign Up URL:**
+**Sign Up URL: "/signup"**
 
-    /signup
     If user is already authenticated, user will be redirect to profile page.
 
-  **Profile URL:**
+  **Profile URL:   "/profile"**
   
-
-    /profile
     If user is not authenticated, user will be redirect to login page.
 
-**Login URL:**
+**Login URL:  "/"**
 
-    /
     If user is already authenticated, user will be redirect to profile page.
