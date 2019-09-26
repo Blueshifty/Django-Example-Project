@@ -1,4 +1,4 @@
-## Django Simple Project 
+## Django Example Project 
 
 **Sign Up URL: "/signup"**
 
