@@ -20,6 +20,8 @@ def logout_view(request):
     return redirect('core:login')
 
 def signup_view(request):
+    if request.user.is_authenticated:
+        return redirect('core:profile')
     form = SignUpForm(request.POST or None)
     if form.is_valid():
         form.save()
